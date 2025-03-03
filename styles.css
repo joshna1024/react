@@ -1,0 +1,68 @@
+/* styles.css */
+.container {
+    padding: 24px;
+    background-color: #f3f4f6;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table-container {
+    background: white;
+    box-shadow: 0 4px 6px black;
+    border-radius: 50px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+   
+  }
+  
+  .transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .transaction-table th,
+  .transaction-table td {
+    border: 1px solid #d1d5db;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .transaction-table th {
+    background-color: #e5e7eb;
+  }
+  
+  .status-verified {
+    color: green;
+    font-weight: bold;
+  }
+  .date
+  {
+    font-weight: bold;
+    color: black;
+
+  }
+  .status-rejected {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .status-pending {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .amount {
+    text-align: right;
+    font-weight: bold;
+  }
+  
